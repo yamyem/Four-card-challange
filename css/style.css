@@ -1,0 +1,113 @@
+/* General  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-size: 15px;
+    color: hsl(234, 12%, 34%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: hsl(0, 0%, 98%);
+
+}
+
+header {
+    margin: 50px auto 0px;
+    line-height: 1.5;
+}
+
+header h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+
+}
+
+header h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+header p{
+    width: 40%;
+    margin: 10px auto 50px;
+    color: hsl(229, 6%, 66%);
+}
+
+h3{
+    color:  hsl(234, 12%, 34%);
+    margin: 40px auto auto 40px;
+}
+
+/* Section with content */
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.content-second{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box {
+    position: relative;
+    width: 350px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 7px;
+    text-align: left;
+    background-color: white;
+    color: hsl(229, 6%, 66%);
+    box-shadow: 0.1em 1em 1em hsl(229, 6%, 66%), -0.1em 0em 1em hsl(229, 6%, 66%);
+}
+
+.box p {
+    margin:20px 40px 40px;
+}
+
+/* Styling for boxes */
+
+.supervisor{
+    border-top: 0.2em solid hsl(180, 62%, 55%);
+}
+
+.karma{
+    border-top: 0.2em solid hsl(34, 97%, 64%);
+
+}
+
+.calculator{
+    border-top: 0.2em solid hsl(212, 86%, 64%);
+}
+
+
+.team-builder{
+    border-top: 0.2em solid hsl(0, 78%, 62%);
+}
+
+.box-icon{
+    position: absolute;
+    left: 230px;
+    bottom: 20px;
+}
+
+/* Footer */
+
+footer .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+footer .attribution a {
+    color: hsl(228, 45%, 44%) ;
+}
