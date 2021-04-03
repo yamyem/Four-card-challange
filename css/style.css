@@ -51,14 +51,9 @@ h3{
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    flex-wrap: wrap;
 
 }
-.content-second{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
+
 
 .box {
     position: relative;
@@ -76,6 +71,11 @@ h3{
     margin:20px 40px 40px;
 }
 
+@media (max-width: 1144px){
+    .content{
+        flex-direction: column;
+    }
+}
 /* Styling for boxes */
 
 .supervisor{
